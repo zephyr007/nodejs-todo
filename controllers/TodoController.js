@@ -61,9 +61,9 @@ let urlencodedParser = bodyParser.urlencoded({extended: false});     // gives ac
 module.exports = function(app) {    // this is a function that takes app as an arg. this function is called from app.js and passes app into the function here so it can use it as app.get, app.post etc.
 
 
-    app.get('/',function (req, res) {
+    /*app.get('/',function (req, res) {
         res.render('index.ejs')
-    });
+    });*/
     app.get('/todo', function(req, res) {
 
         // get data from mongo and pass it to the view
