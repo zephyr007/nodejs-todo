@@ -7,7 +7,7 @@ $(document).ready(function(){
 
       $.ajax({
         type: 'POST',
-        url: '/todo',
+        url: '/',
         data: todo,
         success: function(data){
           // Get newest todos
@@ -23,7 +23,7 @@ $(document).ready(function(){
       var item = $(this).text().replace(/ /g, "-");
       $.ajax({
         type: 'DELETE',
-        url: '/todo/' + item,
+        url: '/' + item,
         success: function(data){
           // Get newest todos
           location.reload();
