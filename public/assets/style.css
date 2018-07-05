@@ -1,0 +1,76 @@
+body {
+    background: #f2f2f2;
+    font-family: Georgia, serif;
+    color: #898989;
+}
+
+#todo-table {
+    position: relative;
+    width: 95%;
+    background: #ececec;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form {
+  margin-bottom: .5em;
+}
+
+#todo-table form:after {
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 20px;
+    background: #f6f6f6;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #989898;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #27a900;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover {
+    text-decoration: line-through;
+    background: #f2f2f2;
+}
+
+h1 {
+    background: url(/assets/logo.png) no-repeat center;
+    text-indent: -10000px;
+    height: 64px;
+    background-size: contain;
+}

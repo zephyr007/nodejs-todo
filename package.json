@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-todo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "baooab <zhangbao90s@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.2.1",
+    "nodemon": "^1.17.5"
+  }
+}
