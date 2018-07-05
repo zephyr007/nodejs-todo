@@ -18,7 +18,7 @@ console.log('Ok, you are listening to port 3000');*/
 
 let express = require('express');
 
-let todoController = require('./controllers/todoController');
+let todoController = require('./controllers/TodoController.js');
 const PORT = process.env.PORT || 5000;
 
 
